@@ -1,4 +1,4 @@
-# Project Code of Conduct
+# RAFT Code of Conduct
 
 ## Introduction
 We, the contributors of the RAFT (Reusable Automation Framework For Testing) project, are committed to creating an inclusive and welcoming community. We value the participation of individuals from all backgrounds and experience levels and want to ensure a harassment-free environment for everyone involved.
@@ -22,6 +22,6 @@ The following behaviors are considered unacceptable within our community:
 - Any other conduct that violates the principles of inclusivity, respect, and professionalism.
 
 ## Reporting and Enforcement
-If you witness or experience any behavior that violates this Code of Conduct, we encourage you to report it to the project maintainers at [maintainers@example.com]. All reports will be handled with confidentiality and will be promptly reviewed and investigated. The project maintainers have the right to take appropriate actions, including issuing warnings, temporary bans, or permanent removal from the project, for those who violate the Code of Conduct.
+If you witness or experience any behavior that violates this Code of Conduct, we encourage you to report it to the project maintainers at [abhilash04sharma@gmail.com]. All reports will be handled with confidentiality and will be promptly reviewed and investigated. The project maintainers have the right to take appropriate actions, including issuing warnings, temporary bans, or permanent removal from the project, for those who violate the Code of Conduct.
 
 By participating in the Reusable Automation Framework For Testing project, you are expected to adhere to this Code of Conduct. We appreciate your cooperation in making this project a welcoming and inclusive community for all.
