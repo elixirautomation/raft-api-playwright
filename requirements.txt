@@ -1,0 +1,7 @@
+pytest-playwright
+pytest
+playwright
+pydantic
+assertpy
+Faker
+pytest-dependency
