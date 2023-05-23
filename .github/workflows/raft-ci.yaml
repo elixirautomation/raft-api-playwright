@@ -50,7 +50,7 @@ jobs:
 
       - name: Run integration tests
         run: |
-          py.test -s -m reqres
+          py.test -s -m reqres --alluredir=./allure-results
 
       - name: Set up allure command-line tool
         run: |
@@ -59,10 +59,10 @@ jobs:
 
       - name: Generate HTML report from allure results
         run: |
-          ./allure-2.14.0/bin/allure generate allure-results --clean -o allure-report
+          ./allure-2.14.0/bin/allure generate /allure-results --clean -o /allure-report
 
       - name: Save allure report artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: Test Execution Reports
+          name: TestExecutionReports
           path: allure-report
