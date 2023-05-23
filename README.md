@@ -1,3 +1,16 @@
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abhilash-sharma-profile/)](https://www.linkedin.com/in/abhilash-sharma-profile/)
+[![Medium](https://img.shields.io/badge/-Medium-black?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@elixirautomation)](https://medium.com/@elixirautomation)
+[![Allure - Reports](https://img.shields.io/badge/Allure-Reports-informational?logo=pytest)](https://elixirautomation.github.io/raft-api-playwright/)
+
+<div style="display: flex;">
+    <a href="https://playwright.dev/">
+        <img alt="Playwright" src="https://www.lambdatest.com/resources/images/header/Playwright_logo.svg" width="250" style="margin-right: 100px;"/>
+    </a>
+    <a href="https://www.python.org/">
+        <img alt="Python" src="https://www.python.org/static/img/python-logo.png" width="200"/>
+    </a>
+</div>
+
 ## Reusable Automation Framework For Testing
 
 API Automation Framework
@@ -44,9 +57,9 @@ API Automation Framework
 ### Example:
 - Open pycharm terminal (Alt+F12) and run following command to run the tests
     ```sh
-    py.cleanup -p && py.test -m reqres --alluredir ExecutionReports/
+    py.cleanup -p && py.test -m reqres
     ```
 - Trigger Allure Reports
     ```sh
-    allure serve ExecutionReports/
+    allure serve allure-results/
     ```
