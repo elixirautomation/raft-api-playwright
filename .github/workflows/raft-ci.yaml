@@ -59,7 +59,7 @@ jobs:
 
       - name: Generate HTML report from allure results
         run: |
-          ./allure-2.14.0/bin/allure generate /allure-results --clean -o /allure-report
+          ./allure-2.14.0/bin/allure generate allure-results --clean -o allure-report
 
       - name: Save allure report artifacts
         uses: actions/upload-artifact@v2
