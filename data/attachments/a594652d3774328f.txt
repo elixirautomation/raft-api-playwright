@@ -1,0 +1,8 @@
+INFO     products.reqres.clients.user_client:user_client.py:21 
+Create User Response:
+{
+    "name": "Tyler Garcia",
+    "job": "Production assistant, television",
+    "id": "143",
+    "createdAt": "2023-05-23T13:12:13.623Z"
+}
