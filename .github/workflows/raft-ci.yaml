@@ -57,4 +57,4 @@ jobs:
           pip install -r requirements.txt
       - name: Run integration tests
         run: |
-          py.cleanup -p && py.test -m reqres
+          py.test -m reqres
