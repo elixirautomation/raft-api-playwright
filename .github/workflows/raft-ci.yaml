@@ -31,8 +31,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Lint
-        with:
-          args: "--max-line-length=100 --ignore E501,E266,W503,E203,E722"
         run: |
           flake8 .
 
