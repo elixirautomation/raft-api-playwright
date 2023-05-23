@@ -1,8 +1,0 @@
-INFO     products.reqres.clients.user_client:user_client.py:21 
-Create User Response:
-{
-    "name": "Jesse Martinez",
-    "job": "Multimedia programmer",
-    "id": "371",
-    "createdAt": "2023-05-23T13:16:26.382Z"
-}
