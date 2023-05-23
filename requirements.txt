@@ -6,3 +6,4 @@ assertpy
 Faker
 pytest-dependency
 flake8
+allure-pytest
