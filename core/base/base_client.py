@@ -14,9 +14,10 @@ class BaseClient:
     def request_processor(self, endpoint: IEndpointTemplate.__class__, **kwargs) -> (int, dict):
         """
         This function processes the http request based on http methods
-        :param endpoint: it takes endpoint specifications which can be provided by extending the
-        "IEndpointTemplate" interface
-        :param kwargs: it takes keyword arguments required in special cases, these are optional arguments
+        :param endpoint: it takes endpoint specifications which can be
+        provided by extending the "IEndpointTemplate" interface
+        :param kwargs: it takes keyword arguments required in special cases,
+        these are optional arguments
         :return: it returns http status code and response
         """
         url = endpoint.url()
@@ -43,4 +44,3 @@ class BaseClient:
                 response = self.request_context.post(url=url, headers=headers, data=request_body)
 
         return response.status, response.json()
-
