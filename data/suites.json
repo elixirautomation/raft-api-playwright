@@ -8,39 +8,39 @@
         "name" : "TestUserModules",
         "children" : [ {
           "name" : "test_create_user",
-          "uid" : "b98c7fced55531d0",
+          "uid" : "b1c765e9dff41884",
           "parentUid" : "4bff88fea6ffbb7c7ace473830388caa",
           "status" : "passed",
           "time" : {
-            "start" : 1684847533300,
-            "stop" : 1684847533706,
-            "duration" : 406
+            "start" : 1684847786069,
+            "stop" : 1684847786458,
+            "duration" : 389
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_get_user_not_found",
-          "uid" : "d57c18555256977b",
+          "uid" : "d8135352302314d3",
           "parentUid" : "4bff88fea6ffbb7c7ace473830388caa",
           "status" : "passed",
           "time" : {
-            "start" : 1684847533709,
-            "stop" : 1684847534027,
-            "duration" : 318
+            "start" : 1684847786461,
+            "stop" : 1684847786784,
+            "duration" : 323
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_get_user_happy_flow",
-          "uid" : "5cb8263c4bcb302",
+          "uid" : "9661bb45422d4f7",
           "parentUid" : "4bff88fea6ffbb7c7ace473830388caa",
           "status" : "passed",
           "time" : {
-            "start" : 1684847534030,
-            "stop" : 1684847534105,
-            "duration" : 75
+            "start" : 1684847786787,
+            "stop" : 1684847786857,
+            "duration" : 70
           },
           "flaky" : false,
           "newFailed" : false,

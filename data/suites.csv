@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 23 13:12:13 UTC 2023","Tue May 23 13:12:13 UTC 2023","406","products.reqres.tests","user_api_tests","TestUserModules","","","test_create_user","Scenarios: user creation & result verification"
-"passed","Tue May 23 13:12:14 UTC 2023","Tue May 23 13:12:14 UTC 2023","75","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_happy_flow","Scenarios: user creation & result verification"
-"passed","Tue May 23 13:12:13 UTC 2023","Tue May 23 13:12:14 UTC 2023","318","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_not_found","Scenarios: user creation & result verification"
+"passed","Tue May 23 13:16:26 UTC 2023","Tue May 23 13:16:26 UTC 2023","389","products.reqres.tests","user_api_tests","TestUserModules","","","test_create_user","Scenarios: user creation & result verification"
+"passed","Tue May 23 13:16:26 UTC 2023","Tue May 23 13:16:26 UTC 2023","323","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_not_found","Scenarios: user creation & result verification"
+"passed","Tue May 23 13:16:26 UTC 2023","Tue May 23 13:16:26 UTC 2023","70","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_happy_flow","Scenarios: user creation & result verification"
