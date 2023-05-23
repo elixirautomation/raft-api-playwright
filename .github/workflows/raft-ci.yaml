@@ -1,4 +1,4 @@
-name: RAFT (Reusable Automation for Testing)
+name: integration-tests
 
 on:
   push:
