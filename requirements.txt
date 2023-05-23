@@ -5,3 +5,4 @@ pydantic
 assertpy
 Faker
 pytest-dependency
+flake8
