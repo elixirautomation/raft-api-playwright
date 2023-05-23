@@ -1,8 +1,0 @@
-INFO     products.reqres.clients.user_client:user_client.py:21 
-Create User Response:
-{
-    "name": "Joseph Gonzalez",
-    "job": "Scientist, product/process development",
-    "id": "600",
-    "createdAt": "2023-05-23T11:13:25.354Z"
-}

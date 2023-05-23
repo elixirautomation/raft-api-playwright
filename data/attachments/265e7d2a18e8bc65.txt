@@ -1,0 +1,8 @@
+INFO     products.reqres.clients.user_client:user_client.py:21 
+Create User Response:
+{
+    "name": "Emily Warner",
+    "job": "Electrical engineer",
+    "id": "810",
+    "createdAt": "2023-05-23T12:49:31.288Z"
+}
