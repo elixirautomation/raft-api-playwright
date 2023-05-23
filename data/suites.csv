@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 23 11:13:25 UTC 2023","Tue May 23 11:13:25 UTC 2023","361","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_not_found","Scenarios: user creation & result verification"
+"passed","Tue May 23 11:13:25 UTC 2023","Tue May 23 11:13:25 UTC 2023","403","products.reqres.tests","user_api_tests","TestUserModules","","","test_create_user","Scenarios: user creation & result verification"
+"passed","Tue May 23 11:13:25 UTC 2023","Tue May 23 11:13:25 UTC 2023","38","products.reqres.tests","user_api_tests","TestUserModules","","","test_get_user_happy_flow","Scenarios: user creation & result verification"

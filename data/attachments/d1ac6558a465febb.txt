@@ -1,0 +1,3 @@
+INFO     products.reqres.clients.user_client:user_client.py:27 
+Get User Response:
+{}
