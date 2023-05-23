@@ -1,0 +1,23 @@
+[flake8]
+# Maximum line length
+max-line-length = 100
+
+# Ignore specific errors or warnings
+# ignore = E203, E501, W503
+
+# Enable select optional checks
+enable-extensions = G
+
+# Define exclusion patterns for specific files or directories
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    dist,
+    build,
+    .eggs,
+    .mypy_cache,
+    .pytest_cache,
+    .tox
