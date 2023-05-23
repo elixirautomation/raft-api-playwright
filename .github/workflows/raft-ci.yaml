@@ -55,7 +55,7 @@ jobs:
       - name: Save allure results
         uses: actions/upload-artifact@v3
         with:
-          name: Allure Results
+          name: allure-results
           path: allure-results
 
   report:
@@ -80,8 +80,8 @@ jobs:
       - name: Download allure results
         uses: actions/download-artifact@v3
         with:
-          name: Allure Results
-          path: ./allure-results
+          name: allure-results
+          path: allure-results
 
       - name: Generate HTML report from allure results
         run: |
@@ -90,5 +90,5 @@ jobs:
       - name: Save allure report artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: Allure Report
+          name: allure-report
           path: allure-report
