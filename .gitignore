@@ -8,6 +8,7 @@ __pycache__/
 *.so
 allure-results
 allure-report
+ExecutionReports/
 
 # Distribution / packaging
 .Python

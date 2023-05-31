@@ -1,7 +1,7 @@
-#### Run Tests with Specific Group
+#### Run Tests with Specific Test Group
 
 ```sh
-py.cleanup -p && py.test -m reqres --alluredir ExecutionReports/
+py.cleanup -p && py.test -s -m reqres --alluredir ExecutionReports/
 ```
 
 
