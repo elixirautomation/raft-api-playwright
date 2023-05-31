@@ -1,8 +1,0 @@
-INFO     products.reqres.clients.user_client:user_client.py:21 
-Create User Response:
-{
-    "name": "Henry Coleman",
-    "job": "Designer, interior/spatial",
-    "id": "119",
-    "createdAt": "2023-05-23T13:19:14.799Z"
-}

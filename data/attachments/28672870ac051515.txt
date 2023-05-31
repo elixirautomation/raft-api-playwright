@@ -1,0 +1,8 @@
+INFO     products.reqres.clients.user_client:user_client.py:21 
+Create User Response:
+{
+    "name": "Deborah Wilson",
+    "job": "Horticultural therapist",
+    "id": "312",
+    "createdAt": "2023-05-31T05:42:31.394Z"
+}

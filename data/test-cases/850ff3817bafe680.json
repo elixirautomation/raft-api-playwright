@@ -1,12 +1,12 @@
 {
-  "uid" : "be10ff2ca093cbcb",
-  "name" : "test_get_user_not_found",
-  "fullName" : "products.reqres.tests.user_api_tests.TestUserModules#test_get_user_not_found",
-  "historyId" : "466a770612133c99e46a824094c769b5",
+  "uid" : "850ff3817bafe680",
+  "name" : "test_create_user",
+  "fullName" : "products.reqres.tests.user_api_tests.TestUserModules#test_create_user",
+  "historyId" : "a5cb419951c2998af719a069e5596ded",
   "time" : {
-    "start" : 1684847954878,
-    "stop" : 1684847955187,
-    "duration" : 309
+    "start" : 1685511749837,
+    "stop" : 1685511751777,
+    "duration" : 1940
   },
   "description" : "Scenarios: user creation & result verification",
   "descriptionHtml" : "<p>Scenarios: user creation &amp; result verification</p>\n",
@@ -14,41 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "delete_output_dir",
     "time" : {
-      "start" : 1684847954207,
-      "stop" : 1684847954222,
-      "duration" : 15
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1684847954207,
-      "stop" : 1684847954207,
+      "start" : 1685511749542,
+      "stop" : 1685511749542,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "user_client",
-    "time" : {
-      "start" : 1684847954877,
-      "stop" : 1684847954878,
-      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,9 +31,9 @@
   }, {
     "name" : "request_context",
     "time" : {
-      "start" : 1684847954502,
-      "stop" : 1684847954513,
-      "duration" : 11
+      "start" : 1685511749827,
+      "stop" : 1685511749835,
+      "duration" : 8
     },
     "status" : "passed",
     "steps" : [ ],
@@ -74,10 +44,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "delete_output_dir",
+    "name" : "user_ids",
     "time" : {
-      "start" : 1684847954207,
-      "stop" : 1684847954207,
+      "start" : 1685511749835,
+      "stop" : 1685511749835,
       "duration" : 0
     },
     "status" : "passed",
@@ -89,10 +59,25 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "base_url",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1684847954206,
-      "stop" : 1684847954206,
+      "start" : 1685511749543,
+      "stop" : 1685511749557,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1685511749542,
+      "stop" : 1685511749542,
       "duration" : 0
     },
     "status" : "passed",
@@ -106,9 +91,9 @@
   }, {
     "name" : "playwright",
     "time" : {
-      "start" : 1684847954222,
-      "stop" : 1684847954502,
-      "duration" : 280
+      "start" : 1685511749558,
+      "stop" : 1685511749827,
+      "duration" : 269
     },
     "status" : "passed",
     "steps" : [ ],
@@ -119,10 +104,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "user_ids",
+    "name" : "_verify_url",
     "time" : {
-      "start" : 1684847954514,
-      "stop" : 1684847954514,
+      "start" : 1685511749542,
+      "stop" : 1685511749542,
       "duration" : 0
     },
     "status" : "passed",
@@ -134,10 +119,25 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "user_client",
     "time" : {
-      "start" : 1684847954207,
-      "stop" : 1684847954207,
+      "start" : 1685511749835,
+      "stop" : 1685511749836,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685511749542,
+      "stop" : 1685511749542,
       "duration" : 0
     },
     "status" : "passed",
@@ -153,21 +153,21 @@
     "description" : "Scenarios: user creation & result verification",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get a user profile which doesn't exist",
+      "name" : "Create a user",
       "time" : {
-        "start" : 1684847954879,
-        "stop" : 1684847955187,
-        "duration" : 308
+        "start" : 1685511749837,
+        "stop" : 1685511751776,
+        "duration" : 1939
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user_client",
-        "value" : "<products.reqres.clients.user_client.UserClient object at 0x7f4d338d7d90>"
+        "value" : "<products.reqres.clients.user_client.UserClient object at 0x7f59dbd7ab10>"
       }, {
         "name" : "user_ids",
-        "value" : "['119']"
+        "value" : "[]"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -175,11 +175,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "8228816abff61e8f",
+      "uid" : "28672870ac051515",
       "name" : "log",
-      "source" : "8228816abff61e8f.txt",
+      "source" : "28672870ac051515.txt",
       "type" : "text/plain",
-      "size" : 85
+      "size" : 218
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -188,41 +188,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "user_client::0",
-    "time" : {
-      "start" : 1684847955188,
-      "stop" : 1684847955188,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "request_context::0",
     "time" : {
-      "start" : 1684847955263,
-      "stop" : 1684847955266,
+      "start" : 1685511753751,
+      "stop" : 1685511753754,
       "duration" : 3
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "playwright::0",
-    "time" : {
-      "start" : 1684847955267,
-      "stop" : 1684847955272,
-      "duration" : 5
     },
     "status" : "passed",
     "steps" : [ ],
@@ -235,8 +205,38 @@
   }, {
     "name" : "user_ids::0",
     "time" : {
-      "start" : 1684847955263,
-      "stop" : 1684847955263,
+      "start" : 1685511753751,
+      "stop" : 1685511753751,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "playwright::0",
+    "time" : {
+      "start" : 1685511753755,
+      "stop" : 1685511753760,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_client::0",
+    "time" : {
+      "start" : 1685511751777,
+      "stop" : 1685511751777,
       "duration" : 0
     },
     "status" : "passed",
@@ -249,14 +249,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "User Acquisition"
-  }, {
     "name" : "story",
     "value" : "Test User Modules"
   }, {
+    "name" : "epic",
+    "value" : "User Acquisition"
+  }, {
     "name" : "tag",
-    "value" : "dependency(depends=['TestUserModules::test_create_user'])"
+    "value" : "dependency"
   }, {
     "name" : "tag",
     "value" : "reqres"
@@ -271,10 +271,10 @@
     "value" : "TestUserModules"
   }, {
     "name" : "host",
-    "value" : "fv-az585-388"
+    "value" : "fv-az400-830"
   }, {
     "name" : "thread",
-    "value" : "1719-MainThread"
+    "value" : "1739-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -296,8 +296,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "dependency(depends=['TestUserModules::test_create_user'])", "reqres" ]
+    "tags" : [ "dependency", "reqres" ]
   },
-  "source" : "be10ff2ca093cbcb.json",
+  "source" : "850ff3817bafe680.json",
   "parameterValues" : [ ]
 }
